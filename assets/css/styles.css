@@ -87,3 +87,7 @@ footer {
     color: var(--black);
     padding: 5px;
 }
+
+#about-me p {
+    font-size: 80%;
+}
