@@ -114,6 +114,10 @@ footer {
         flex-wrap: nowrap;
     }
 
+    footer .body-header {
+        margin-left: 26px;
+    }
+
     .list {
         display: inline;
     }
@@ -124,13 +128,16 @@ footer {
         background-color: var(--neutral);
     }
 
+    #work .body-header {
+        margin-left: 81px;
+    }
+
     .divide {
         margin: 5px;
         border: 3px solid var(--watermelon);
     }
 
     #my-work {
-        height: 75%;
         display: flex;
         flex-flow: row wrap;
     }
