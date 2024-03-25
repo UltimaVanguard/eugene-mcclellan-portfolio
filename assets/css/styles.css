@@ -48,21 +48,22 @@ main {
     flex-direction: column;
     width: 96%;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; 
 }
 
 main img {
-    width: 96%;
+    width: 100%;
+    margin: 5px;
 }
 
 figure {
-    position: relative
+    position: relative;
 }
 
 figure figcaption {
     position: absolute;
-    bottom: 9px;
-    left: 6px;
+    bottom: 17px;
+    left: 5px;
     padding: 2px 5px;
     color: #000;
     background-color: var(--sky);
@@ -95,6 +96,10 @@ a:hover {
     font-size: 80%;
 }
 
+#my-work {
+    flex: 0 0 100%;
+}
+
 @media screen and (min-width: 768px) {
     body {
         color: var(--carbon)
@@ -104,6 +109,12 @@ a:hover {
         color: #000;
     }
     
+    header,
+    main,
+    footer {
+        width: 100%;
+    }
+
     main,
     footer {
         text-align: right;
@@ -145,16 +156,19 @@ a:hover {
     }
 
     #my-work {
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
     }
 
     #my-work figure {
-        flex: 0 0 40%;
+        flex: 0 0 200px;
+        align-self: flex-start;
     }
 
     #my-work #main-work {
-        flex: 0 0 80%;
+        flex: 0 0 400px;
     }
 
     #contact-links {
@@ -166,7 +180,7 @@ a:hover {
     }
 
     #contact-links .list {
-        margin: 10px;
+        margin: 5px;
     }
 }
 
@@ -176,10 +190,7 @@ a:hover {
         display: flex;
         flex-flow: row nowrap;
         justify-content: left;
+        flex: 1 0 100%;
         align-items: center;
-    }
-
-    #contact-links .list {
-        margin: 20px;
     }
 }
