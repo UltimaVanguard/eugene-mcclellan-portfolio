@@ -167,6 +167,10 @@ a:hover {
         align-self: flex-start;
     }
 
+    #my-work figcaption {
+        font-size: 50%;
+    }
+
     #my-work #main-work {
         flex: 0 0 400px;
     }
