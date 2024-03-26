@@ -161,6 +161,18 @@ footer {
         border: 3px solid var(--watermelon);
     }
 
+    #about-me {
+        width: 70%;
+    }
+
+    #about-me .body-header {
+        margin-left: 60px;
+    }
+
+    #about-content {
+        text-align: center;
+    }
+
     /* CSS changes for the images */
     #my-work {
         width: 70%;
