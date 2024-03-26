@@ -1,3 +1,4 @@
+/* CSS Variables */
 :root {
     --neutral: #EFEFEF;
     --watermelon: #FF3B3F;
@@ -5,11 +6,13 @@
     --sky: #CAEBF2;
 }
 
+/* Universal Selectors */
 * {
     padding: 0px;
     margin: 0px;
 }
 
+/* CSS for the Body */
 body {
     display: flex;
     flex-direction: column;
@@ -24,6 +27,7 @@ body h2 {
     background-color: var(--watermelon);
 }
 
+/* CSS for the header */
 header {
     width: 96%;
     margin: 0 auto;
@@ -43,6 +47,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: var(--carbon);
+}
+
+/* CSS for the main section */
 main {
     display: flex;
     flex-direction: column;
@@ -56,6 +65,7 @@ main img {
     margin: 5px;
 }
 
+/* CSS for the images */
 figure {
     position: relative;
 }
@@ -69,6 +79,7 @@ figure figcaption {
     background-color: var(--sky);
 }
 
+/* CSS for the footer */
 footer {
     display: flex;
     flex-direction: column;
@@ -77,10 +88,7 @@ footer {
     text-align: center;
 }
 
-a:hover {
-    background-color: var(--carbon);
-}
-
+/* CSS for both lists */
 .lists {
     list-style: none;
 }
@@ -92,15 +100,19 @@ a:hover {
     padding: 5px;
 }
 
+/* CSS for the about me section */
 #about-me p {
     font-size: 80%;
 }
 
+/* CSS for tablets */
 @media screen and (min-width: 768px) {
+    /* CSS changes for the body */
     body {
         color: var(--carbon)
     }
 
+    /* CSS changes for header, main, and footer*/
     main p {
         color: #000;
     }
@@ -132,10 +144,12 @@ a:hover {
         margin-left: 26px;
     }
 
+    /* CSS changes for lists */
     .list {
         display: inline;
     }
 
+    /* CSS changes for the headings */
     .body-header {
         width: 200px;
         margin-right: 5px;
@@ -147,6 +161,7 @@ a:hover {
         border: 3px solid var(--watermelon);
     }
 
+    /* CSS changes for the images */
     #my-work {
         width: 70%;
         display: flex;
@@ -166,6 +181,7 @@ a:hover {
         flex: 0 0 80%;
     }
 
+    /* CSS changes for the contact links */
     #contact-links {
         width: 100%;
         display: flex;
@@ -179,7 +195,9 @@ a:hover {
     }
 }
 
+/* CSS changes for computers screens */
 @media screen and (min-width: 992px) {
+    /* CSS changes for contact links */
     #contact-links {
         width: 100%;
         display: flex;
