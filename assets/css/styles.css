@@ -96,10 +96,6 @@ a:hover {
     font-size: 80%;
 }
 
-#my-work {
-    flex: 0 0 100%;
-}
-
 @media screen and (min-width: 768px) {
     body {
         color: var(--carbon)
@@ -146,24 +142,19 @@ a:hover {
         background-color: var(--neutral);
     }
 
-    #work .body-header {
-        margin-left: 81px;
-    }
-
     .divide {
         margin: 5px;
         border: 3px solid var(--watermelon);
     }
 
     #my-work {
-        width: 100%;
+        width: 70%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
     }
 
     #my-work figure {
-        flex: 0 0 200px;
+        flex: 0 0 40%;
         align-self: flex-start;
     }
 
@@ -172,7 +163,7 @@ a:hover {
     }
 
     #my-work #main-work {
-        flex: 0 0 400px;
+        flex: 0 0 80%;
     }
 
     #contact-links {
