@@ -161,6 +161,7 @@ footer {
         border: 3px solid var(--watermelon);
     }
 
+    /* CSS changes for about me section */
     #about-me {
         width: 70%;
     }
