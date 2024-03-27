@@ -68,7 +68,13 @@ main {
 
 main img {
     width: 100%;
+    transition: all 0.5s ease-in-out; 
     margin: 5px;
+}
+
+main img:hover {             
+    box-shadow: inset 0px 0px 8px rgba(236, 19, 19, .7), 
+    0px 0px 15px rgba(236, 19, 19, 1)
 }
 
 /* CSS for the images */
@@ -173,7 +179,7 @@ footer {
     }
 
     #about-me .body-header {
-        margin-left: 60px;
+        margin-left: 61px;
     }
 
     #about-content {
