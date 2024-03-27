@@ -47,8 +47,14 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+header a:hover {
     background-color: var(--carbon);
+}
+
+main img:hover {
+    transition: all 0.5s ease-in-out;              
+    box-shadow: inset 0px 0px 8px rgba(236, 19, 19, .7), 
+    0px 0px 15px rgba(236, 19, 19, 1)
 }
 
 /* CSS for the main section */
@@ -184,11 +190,13 @@ footer {
     #my-work figure {
         flex: 0 0 40%;
         align-self: flex-start;
+        margin: 2px;
     }
 
     #my-work figcaption {
         font-size: 50%;
     }
+
 
     #my-work #main-work {
         flex: 0 0 80%;
