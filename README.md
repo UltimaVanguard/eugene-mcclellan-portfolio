@@ -2,7 +2,7 @@
 
 ## Description
 
-The code refactor for Horiseon is to update Horiseon's website to be more accessible. As well as update the code to be more readable by adding semantic elements. I also updated the CSS to be more readable by restructuring the file and removing some of the redundancies. 
+I am creating a portfolio website as a place to store the work I create in a central location and as a way to easily link employers to my work. I also used this as a test for myself on trying a mobile-first approach.
 
 ## Installation
 
@@ -10,13 +10,17 @@ N/A
 
 ## Usage
 
-You can access the website using https://ultimavanguard.github.io/code-refactor-for-horiseon/ this link.
+You can access the website using https://ultimavanguard.github.io/eugene-mcclellan-portfolio/ this link.
 
-You can click on the three links on the header to take you the appropriate sections. 
+The website will resize appropriately depending on screen size.
 
-![alt text](https://github.com/UltimaVanguard/code-refactor-for-horiseon/blob/main/assets/images/Website.png)
+You can click on the three links on the header to take you the appropriate sections.
 
-You can view the HTML to see the semantic elements I added and look through CSS to see how I restructured it. I also added comments in both files to help understand the flow and what is happening in each section.
+You're also able click on the images of my work to be taken to the deployed application to view it's functionality.
+
+Finally, the email contact link will let you email me, and the github link will take you to my github page.
+
+![alt text](https://github.com/UltimaVanguard/eugene-mcclellan-portfolio/blob/main/assets/images/Website.png)
 
 ## Credits
 
